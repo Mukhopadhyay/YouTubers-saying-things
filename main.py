@@ -3,4 +3,5 @@ from utils import utils
 
 warnings.filterwarnings('ignore')
 
-utils.print_channel_vids('vsauce1', './chromedriver')
+df = utils.get_channel_info('vsauce1', './chromedriver')
+print(df)
