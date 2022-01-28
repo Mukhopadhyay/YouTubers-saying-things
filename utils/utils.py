@@ -1,12 +1,13 @@
 import numpy as np
 import pandas as pd
+from typing import Optional
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
 URL: str = 'https://www.youtube.com/c/{}/videos?view=0&sort=p&flow=grid'
 dataframe_cols: list = ['Title', 'CC', 'URL', 'Released', 'Views']
 
-def get_channel_info(channel: str, driver_path: str) -> pd.DataFrame:
+def get_channel_info(channel: str, driver_path: str, verbose: Optional[bool] = False) -> pd.DataFrame:
     # Chrome driver
     driver = webdriver.Chrome(driver_path)
 
@@ -16,6 +17,12 @@ def get_channel_info(channel: str, driver_path: str) -> pd.DataFrame:
     # Navigate to the YouTube channel
     driver.get(URL.format(channel))
 
+    channel_name = driver.find_element_by_xpath('//yt-formatted-string[@class="style-scope ytd-channel-name"]')
+    subscribers = driver.find_element_by_xpath('//yt-formatted-string[@id="subscriber-count"]')
+
+    print("Channel Name: {}".format(channel_name.text))
+    print("Subscribers: {}".format(subscribers.text))
+
     renderers = driver.find_elements_by_tag_name('ytd-grid-video-renderer')
     for renderer in renderers:
         try:
@@ -24,7 +31,8 @@ def get_channel_info(channel: str, driver_path: str) -> pd.DataFrame:
             views = renderer.find_element_by_class_name('ytd-grid-video-renderer')
             cc = renderer.find_element_by_class_name('badge-style-type-simple').text
         except NoSuchElementException as _:
-            print('NoSuchElementException occurred!')
+            if verbose:
+                print('NoSuchElementException occurred!')
             cc = np.nan
         else:
             pass
