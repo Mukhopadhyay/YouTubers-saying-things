@@ -1,26 +1,126 @@
 [
     {
         "channel": "vsauce1",
-        "category": "Science"
+        "category": ["Science"]
     },
     {
         "channel": "veritasium",
-        "category": "Science"
+        "category": ["Science"]
     },
     {
         "channel": "MarkRober",
-        "category": "Science"
+        "category": ["Science"]
     },
     {
         "channel": "SmarterEveryDay",
-        "category": "Science"
+        "category": ["Science"]
     },
     {
         "channel": "pbsspacetime",
-        "category": "Science"
+        "category": ["Science"]
     },
     {
         "channel": "NileRed",
-        "category": "Science"
+        "category": ["Science"]
+    },
+    {
+        "channel": "3blue1brown",
+        "category": ["Science"]
+    },
+    {
+        "channel": "DrBecky",
+        "category": ["Science"]
+    },
+    {
+        "channel": "TopGear",
+        "category": ["Automobile", "Comedy"]
+    },
+    {
+        "channel": "DonutMediaTV",
+        "category": ["Automobile"]
+    },
+    {
+        "channel": "chrisfix",
+        "category": ["Automobile"]
+    },
+    {
+        "channel": "thegrandtour",
+        "category": ["Automobile", "Comedy"]
+    },
+    {
+        "channel": "carwow",
+        "category": ["Automobile"]
+    },
+    {
+        "channel": "Drivetribe",
+        "category": ["Automobile", "Comedy"]
+    },
+    {
+        "channel": "LinusTechTips",
+        "category": ["Tech"]
+    },
+    {
+        "channel": "HardwareCanucks",
+        "category": ["Tech"]
+    },
+    {
+        "channel": "austinevans",
+        "category": ["Tech"]
+    },
+    {
+        "channel": "techlinked",
+        "category": ["Tech", "News", "Comedy"]
+    },
+    {
+        "channel": "Lazygamereviews",
+        "category": ["VideoGames"]
+    },
+    {
+        "channel": "AbroadinJapan",
+        "category": ["Travel", "Comedy", "Blog"]
+    },
+    {
+        "channel": "CDawgVA",
+        "category": ["Travel", "Comedy", "Blog"]
+    },
+    {
+        "channel": "TheOfficeUS",
+        "category": ["Comedy"]
+    },
+    {
+        "channel": "BrooklynNineNineOfficial",
+        "category": ["Comedy"]
+    },
+    {
+        "channel": "mythicalkitchen",
+        "category": ["Food"]
+    },
+    {
+        "channel": "videogamedunkey",
+        "category": ["VideoGames", "Comedy"]
+    },
+    {
+        "channel": "LetsGameItOut",
+        "category": ["VideoGames", "Comedy"]
+    },
+    {
+        "channel": "InternetHistorian",
+        "category": ["Informative", "Comedy"]
+    },
+    {
+        "channel": "InternetHistorianIncognitoMode",
+        "category": ["Blog", "Comedy"]
+    },
+    {
+        "channel": "FoodTribe",
+        "category": ["Food"]
+    },
+    {
+        "channel": "gordonramsay",
+        "category": ["Food"]
+    },
+    {
+        "channel": "Electroboom",
+        "category": ["Science"]
     }
 ]
