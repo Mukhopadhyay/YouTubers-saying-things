@@ -15,7 +15,7 @@ chrome_options.add_argument('--log-level=1')
 URL: str = 'https://www.youtube.com/c/{}/videos?view=0&sort=p&flow=grid'
 dataframe_cols: list = ['Channel', 'Subsribers', 'Title', 'CC', 'URL', 'Released', 'Views']
 
-def get_channel_info(channel: str, driver_path: str, verbose: Optional[bool] = False) -> pd.DataFrame:
+def get_channel_info(channel: dict, driver_path: str, verbose: Optional[bool] = False) -> pd.DataFrame:
     # Chrome driver
     driver = webdriver.Chrome(driver_path, options=chrome_options)
 
@@ -23,15 +23,18 @@ def get_channel_info(channel: str, driver_path: str, verbose: Optional[bool] = F
     data = []
 
     # Navigate to the YouTube channel
-    driver.get(URL.format(channel))
+    url = channel.get('url', URL.format(channel.get('channel')))
+    if not url.endswith('=grid'):
+        url += '?view=0&sort=p&flow=grid'
+    driver.get(url)
 
     try:
         ch = driver.find_element_by_xpath('//yt-formatted-string[@class="style-scope ytd-channel-name"]')
         subs = driver.find_element_by_xpath('//yt-formatted-string[@id="subscriber-count"]')
     except Exception:
-        print(f'[EXCEPTION] Channel not found!\nPlease check this URL: {URL.format(channel)}')
+        print(f'[EXCEPTION] Channel not found ({channel})!\nPlease check this URL: {url}\n')
         # Exit the program
-        sys.exit()
+        return
     else:
         string = 'Channel: {}\nSubscribers: {}\n{}'.format(ch.text, subs.text, '-'*30)
         print(string)

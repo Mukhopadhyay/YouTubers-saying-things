@@ -12,3 +12,6 @@ __pycache__/
 # Selenium drivers
 chromedriver
 chromedriver.exe
+
+# thumbnails
+thumbnails

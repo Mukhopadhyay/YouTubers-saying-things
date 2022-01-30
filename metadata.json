@@ -61,7 +61,8 @@
     },
     {
         "channel": "HardwareCanucks",
-        "category": ["Tech"]
+        "category": ["Tech"],
+        "url": "https://www.youtube.com/user/HardwareCanucks/videos"
     },
     {
         "channel": "austinevans",
@@ -97,7 +98,8 @@
     },
     {
         "channel": "videogamedunkey",
-        "category": ["VideoGames", "Comedy"]
+        "category": ["VideoGames", "Comedy"],
+        "url": "https://www.youtube.com/user/videogamedunkey/videos"
     },
     {
         "channel": "LetsGameItOut",
@@ -117,10 +119,31 @@
     },
     {
         "channel": "gordonramsay",
-        "category": ["Food"]
+        "category": ["Food"],
+        "url": "https://www.youtube.com/user/gordonramsay/videos"
     },
     {
         "channel": "Electroboom",
         "category": ["Science"]
+    },
+    {
+        "channel": "UCX6OQ3DkcsbYNE6H8uQQuVA",
+        "category": ["Comedy"],
+        "url": "https://www.youtube.com/c/MrBeast6000/videos"
+    },
+    {
+        "channel": "UCdN4aXTrHAtfgbVG9HjBmxQ",
+        "category": ["Comedy"],
+        "url": "https://www.youtube.com/c/KeyAndPeele/videos"
+    },
+    {
+        "channel": "UCoz3Kpu5lv-ALhR4h9bDvcw",
+        "category": ["VideoGames"],
+        "url": "https://www.youtube.com/c/shroud/videos"
+    },
+    {
+        "channel": "UCNvzD7Z-g64bPXxGzaQaa4g",
+        "category": ["VideoGames"],
+        "url": "https://www.youtube.com/user/gameranxTV/videos"
     }
 ]
