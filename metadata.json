@@ -86,11 +86,11 @@
     },
     {
         "channel": "TheOfficeUS",
-        "category": ["Comedy"]
+        "category": ["Comedy", "Entertainment"]
     },
     {
         "channel": "BrooklynNineNineOfficial",
-        "category": ["Comedy"]
+        "category": ["Comedy", "Entertainment"]
     },
     {
         "channel": "mythicalkitchen",
@@ -107,7 +107,7 @@
     },
     {
         "channel": "InternetHistorian",
-        "category": ["Informative", "Comedy"]
+        "category": ["Comedy", "Informative"]
     },
     {
         "channel": "InternetHistorianIncognitoMode",
@@ -145,5 +145,115 @@
         "channel": "UCNvzD7Z-g64bPXxGzaQaa4g",
         "category": ["VideoGames"],
         "url": "https://www.youtube.com/user/gameranxTV/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Food", "Entertainment"],
+        "url": "https://www.youtube.com/c/FirstWeFeast/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/c/VICE/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Entertainment"],
+        "url": "https://www.youtube.com/c/BuzzFeedVideo/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/c/SkyNews/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/c/TheDailyShow/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Science"],
+        "url": "https://www.youtube.com/c/inanutshell/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Comedy", "Entertainment"],
+        "url": "https://www.youtube.com/c/TeamCoco/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Informative"],
+        "url": "https://www.youtube.com/c/LEMMiNO/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Entertainment", "Comedy"],
+        "url": "https://www.youtube.com/c/OfficialGrahamNorton/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Comedy", "Informative"],
+        "url": "https://www.youtube.com/c/OverSimplified/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Comedy", "Informative"],
+        "url": "https://www.youtube.com/c/CaptainDisillusion/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Comedy", "Blog"],
+        "url": "https://www.youtube.com/c/DrewGooden1/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Informative"],
+        "url": "https://www.youtube.com/c/TheInfographicsShowOFFICIAL/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Science"],
+        "url": "https://www.youtube.com/c/SEAmedia/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Blog", "Comedy"],
+        "url": "https://www.youtube.com/user/penguinz0/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Informative"],
+        "url": "https://www.youtube.com/c/JCSCriminalPsychology/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/c/BBCNews/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/c/AE/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Food"],
+        "url": "https://www.youtube.com/c/munchies/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/channel/UCHjm6wybRbldhqveS7c2WTA/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Food"],
+        "url": "https://www.youtube.com/c/bonappetit/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Informative"],
+        "url": "https://www.youtube.com/c/BarelySociable/videos"
     }
 ]

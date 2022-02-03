@@ -21,6 +21,7 @@ Current available video categories:
 - VideoGames
 - Food
 - News
-- Informative
 - Blog
+- Entertainment
+- Informative
 

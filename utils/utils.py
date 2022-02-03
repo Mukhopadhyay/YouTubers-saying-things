@@ -1,4 +1,3 @@
-import sys
 import numpy as np
 import pandas as pd
 from typing import Optional
@@ -13,7 +12,7 @@ chrome_options.add_argument('--log-level=1')
 # Download Chrome driver from this link: https://chromedriver.chromium.org/downloads
 
 URL: str = 'https://www.youtube.com/c/{}/videos?view=0&sort=p&flow=grid'
-dataframe_cols: list = ['Channel', 'Subsribers', 'Title', 'CC', 'URL', 'Released', 'Views']
+dataframe_cols: list = ['Id', 'Channel', 'Subscribers', 'Title', 'CC', 'URL', 'Released', 'Views']
 
 def get_channel_info(channel: dict, driver_path: str, verbose: Optional[bool] = False) -> pd.DataFrame:
     # Chrome driver
@@ -58,15 +57,14 @@ def get_channel_info(channel: dict, driver_path: str, verbose: Optional[bool] = 
             released = [x for x in views if x.endswith('s ago')]
             views = [x for x in views if x.endswith(' views')]
             # Append this video's details to the list
-            data.append(
-                [
-                    ch.text,
-                    subs.text,
-                    title.text, cc, vid_url,
-                    released[0] if len(released) != 0 else np.nan,
-                    views[0] if len(views) != 0 else np.nan,
-                ]
-            )
+            data.append([
+                vid_url.split('v=')[1],
+                ch.text,
+                subs.text,
+                title.text, cc, vid_url,
+                released[0] if len(released) != 0 else np.nan,
+                views[0] if len(views) != 0 else np.nan,
+            ])
 
     # Close chrome
     driver.close()
