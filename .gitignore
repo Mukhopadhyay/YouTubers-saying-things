@@ -15,3 +15,7 @@ chromedriver.exe
 
 # thumbnails
 thumbnails
+
+# Temporary directories
+out/
+temp/
