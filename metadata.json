@@ -70,7 +70,7 @@
     },
     {
         "channel": "techlinked",
-        "category": ["Tech", "News", "Comedy"]
+        "category": ["Tech", "News"]
     },
     {
         "channel": "Lazygamereviews",
@@ -78,11 +78,11 @@
     },
     {
         "channel": "AbroadinJapan",
-        "category": ["Travel", "Comedy", "Blog"]
+        "category": ["Travel", "Blog"]
     },
     {
         "channel": "CDawgVA",
-        "category": ["Travel", "Comedy", "Blog"]
+        "category": ["Travel", "Blog"]
     },
     {
         "channel": "TheOfficeUS",
@@ -98,12 +98,12 @@
     },
     {
         "channel": "videogamedunkey",
-        "category": ["VideoGames", "Comedy"],
+        "category": ["VideoGames"],
         "url": "https://www.youtube.com/user/videogamedunkey/videos"
     },
     {
         "channel": "LetsGameItOut",
-        "category": ["VideoGames", "Comedy"]
+        "category": ["VideoGames"]
     },
     {
         "channel": "InternetHistorian",
@@ -128,7 +128,7 @@
     },
     {
         "channel": "UCX6OQ3DkcsbYNE6H8uQQuVA",
-        "category": ["Comedy"],
+        "category": ["Blog", "Entertainment"],
         "url": "https://www.youtube.com/c/MrBeast6000/videos"
     },
     {
@@ -198,12 +198,12 @@
     },
     {
         "channel": "",
-        "category": ["Comedy", "Informative"],
+        "category": ["Informative"],
         "url": "https://www.youtube.com/c/CaptainDisillusion/videos"
     },
     {
         "channel": "",
-        "category": ["Comedy", "Blog"],
+        "category": ["Blog"],
         "url": "https://www.youtube.com/c/DrewGooden1/videos"
     },
     {
@@ -255,5 +255,175 @@
         "channel": "",
         "category": ["Informative"],
         "url": "https://www.youtube.com/c/BarelySociable/videos"
+    },
+    {
+        "channel": "",
+        "category": ["VideoGames"],
+        "url": "https://www.youtube.com/user/TheWarOwl/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Tech"],
+        "url": "https://www.youtube.com/c/WebDevSimplified/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Tech"],
+        "url": "https://www.youtube.com/c/Fireship/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Blog", "Science"],
+        "url": "https://www.youtube.com/c/LexClips/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Entertainment", "Blog"],
+        "url": "https://www.youtube.com/c/tryguys/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Informative"],
+        "url": "https://www.youtube.com/c/Vox/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Blog"],
+        "url": "https://www.youtube.com/c/DramaAlert/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Entertainment"],
+        "url": "https://www.youtube.com/c/DoctorWho/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Blog"],
+        "url": "https://www.youtube.com/c/JREClips/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Entertainment", "Comedy"],
+        "url": "https://www.youtube.com/c/screenjunkies/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Tech", "Informative"],
+        "url": "https://www.youtube.com/c/TheCoderCoder/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Tech", "Comedy"],
+        "url": "https://www.youtube.com/c/JomaOppa/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Blog"],
+        "url": "https://www.youtube.com/c/JomainNYC/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Informative"],
+        "url": "https://www.youtube.com/c/SamONellaAcademy/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Automobile"],
+        "url": "https://www.youtube.com/c/ThrottleHouse/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Automobile"],
+        "url": "https://www.youtube.com/user/TheStraightPipes/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Informative"],
+        "url": "https://www.youtube.com/c/CNET/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Entertainment", "Comedy"],
+        "url": "https://www.youtube.com/c/ParksandRecreation/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/c/NBCNews/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/c/nowthisnews/videos"
+    },
+    {
+        "channel": "",
+        "category": ["News"],
+        "url": "https://www.youtube.com/c/SomeGoodNews/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Food"],
+        "url": "https://www.youtube.com/c/theFword/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Food"],
+        "url": "https://www.youtube.com/c/HellsKitchenGlobal/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Food"],
+        "url": "https://www.youtube.com/c/eater/videos"   
+    },
+    {
+        "channel": "",
+        "category": ["Food"],
+        "url": "https://www.youtube.com/user/epicuriousdotcom/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Food"],
+        "url": "https://www.youtube.com/c/AboutToEat/videos"
+    },
+    {
+        "channel": "",
+        "category": ["VideoGames"],
+        "url": "https://www.youtube.com/c/jacksepticeye/videos"
+    },
+    {
+        "channel": "",
+        "category": ["VideoGames"],
+        "url": "https://www.youtube.com/c/markiplier/videos"
+    },
+    {
+        "channel": "",
+        "category": ["VideoGames"],
+        "url": "https://www.youtube.com/c/LevelCapGaming/videos"
+    },
+    {
+        "channel": "",
+        "category": ["VideoGames"],
+        "url": "https://www.youtube.com/user/EpicNameBro/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Tech"],
+        "url": "https://www.youtube.com/c/Techquickie/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Tech"],
+        "url": "https://www.youtube.com/c/mkbhd/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Automobile"],
+        "url": "https://www.youtube.com/c/CarThrottle/videos"
+    },
+    {
+        "channel": "",
+        "category": ["Automobile"],
+        "url": "https://www.youtube.com/c/TheStig/videos"
     }
 ]
