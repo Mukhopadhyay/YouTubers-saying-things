@@ -16,6 +16,7 @@ chromedriver.exe
 # thumbnails
 thumbnails
 
-# Temporary directories
+# Temporary directories & files
 out/
 temp/
+durations.csv
