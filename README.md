@@ -2,8 +2,6 @@
 
 ## Dataset with popular YouTuber's video subtitles
 
-<br/>
-
 ### Find it on:
 
 [<img src='https://www.kaggle.com/static/images/site-logo.svg' alt='kaggle' height='40'>](https://www.kaggle.com/praneshmukhopadhyay/youtubers-saying-things)
