@@ -1,6 +1,5 @@
 ![background](documentation/background.jpg)
-
-## Dataset with popular YouTuber's video subtitles
+# Dataset with popular YouTuber's video subtitles
 
 ### Find it on:
 
@@ -11,9 +10,19 @@
 This dataset contains subtitles from over `91` different youtubers, ranging from all different kinds of categories. The data was collected and cleaned (as much as necessary) by me. Currently the dataset contains `2515` unique videoes and their subtitles. There are `11` columns in the dataset.
 The purpose of each column is as follows:
 
-|**No**|**Column**|**Description**|
-|:-----|:---------|:--------------|
-||||
+|**No**|**Column**|**Dtype**|**Description**|
+|:-----|:---------|:--------|:--------------|
+|1|`Id`|`str`|Unique ID for the video. (e.g., `dQw4w9WgXcQ`)|
+|2|`Channel`|`str`|Name of the YouTube channel.|
+|3|`Subscribers`|`str`|How many subsribers did the channel have while collecting the dataset|
+|4|`Title`|`str`|Title of the video|
+|5|`CC`|`int`|Did the video have manual subtitles? (Possible values `0` or `1`, where `0` means that the Transcript is auto-generated, and may be less reliable)|
+|6|`URL`|`str`|URL of the video (e.g., `https://www.youtube.com/watch?v=dQw4w9WgXcQ`)|
+|7|`Released`|`str`|When the video was released|
+|8|`Views`|`str`|How many views did the video have during the collection of this dataset|
+|9|`Category`|`str`|Category of the channel (e.g., **Science**, **Comedy**, etc)|
+|10|`Transcript`|`str`|Subtitle for the video|
+|11|`Length`|`str`|Duration of the video|
 
 ## Genres and channels
 
