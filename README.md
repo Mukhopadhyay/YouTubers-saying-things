@@ -8,7 +8,7 @@
 
 ## Description
 
-This dataset contains subtitles from over <big><strong>`91`</strong></big> different youtubers, ranging from all different kinds of categories. The data was collected and cleaned (as much as necessary) by me. Currently the dataset contains <big><strong>`2515`</strong></big> unique videoes and their subtitles. There are `11` columns in the dataset.
+This dataset contains subtitles from over <big><strong>91</strong></big> different youtubers, ranging from all different kinds of categories. The data was collected and cleaned (as much as necessary) by me. Currently the dataset contains <big><strong>2515</strong></big> unique videoes and their subtitles. There are `11` columns in the dataset.
 The purpose of each column is as follows:
 
 |**No**|**Column**|**Description**|
