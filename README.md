@@ -7,20 +7,22 @@
 
 ## Intro
 
-Founded and maintained since 2005, YouTube is one of internet's biggest platform. With their number of videoes watched per day exceeding **1 Billion**, it's easy for any user to differentiate genres just by glancing at the thumbnail and the Title. My inspiration to make this dataset was to try and answer the question if it is equally easy for a computer to do.
+Founded and maintained since 2005, YouTube is one of the internet's biggest platforms. With their number of videos watched per day exceeding **1 Billion**, it's easy for any user to differentiate genres just by glancing at the thumbnail and the Title. My inspiration to make this dataset was to try and answer the question of _whether it is equally easy for a computer to do_.
 
-The `Transcript` column in the dataset contains the subtitles for the repective videoes. However the reliability of the subtitles may vary. Even though the auto-generated subtitles works great (most of the time). Sometimes under heavy pressure of thick accents it lets go of the ball. Please consult the `CC` attribute to check whether the subtitle is auto-generated or not. `1381` of these video subtitles are auto-generated, the rest of the `1134` are manual ones.
+The `Transcript` column in the dataset contains the subtitles for the respective videos. However, the reliability of the subtitles may vary. Even though the auto-generated subtitles work great (most of the time). Sometimes under heavy pressure of thick accents, it lets go of the ball. Please consult the `CC` attribute to check whether the subtitle is auto-generated or not. `1381` of these video subtitles are auto-generated, the rest of the `1134` are manual ones.
+
+Since the values of `Subscribers` and `Views` are based on the time when the dataset was generated. That's to be taken into account. The most recent version of this dataset was generated on `05-Feb-2022`.
 
 ## Description
 
-This dataset contains subtitles from over `91` different youtubers, ranging from all different kinds of categories. The data was collected and cleaned (as much as necessary) by me. Currently the dataset contains `2515` unique videoes and their subtitles. There are `11` columns in the dataset.
+This dataset contains subtitles from over `91` different YouTubers, ranging from all different kinds of categories. The data were collected and cleaned (as much as necessary) by me. Currently, the dataset contains `2515` unique videos and their subtitles. There are `11` columns in the dataset.
 The purpose of each column is as follows:
 
 |**No**|**Column**|**Dtype**|**Description**|
 |:-----|:---------|:--------|:--------------|
 |1|`Id`|`str`|Unique ID for the video. (e.g., `dQw4w9WgXcQ`)|
 |2|`Channel`|`str`|Name of the YouTube channel.|
-|3|`Subscribers`|`str`|How many subsribers did the channel have while collecting the dataset|
+|3|`Subscribers`|`str`|How many subscribers did the channel have while collecting the dataset|
 |4|`Title`|`str`|Title of the video|
 |5|`CC`|`int`|Did the video have manual subtitles? (Possible values `0` or `1`, where `0` means that the Transcript is auto-generated, and may be less reliable)|
 |6|`URL`|`str`|URL of the video (e.g., `https://www.youtube.com/watch?v=dQw4w9WgXcQ`)|
@@ -44,3 +46,8 @@ The purpose of each column is as follows:
 |`Blog`|**Abroad in Japan**, **CDawgVA**, **DramaAlert**, **Drew Gooden**, **Incognito Mode**, **Joma in NYC**, **JRE Clips**, **Lex Clips**, **MrBeast**, **penguinz0**, **The Try Guys**|11|
 |`News`|**A&E**, **BBC News**, **Insider News**, **NBC News**, **NowThis News**, **Sky News**, **SomeGoodNews**, **TechLinked**, **The Daily Show with Trevor Noah**, **VICE**|10|
 |`Tech`|**Austin Evans**, **Coder Coder**, **Fireship**, **Hardware Canucks**, **Joma Tech**, **Linus Tech Tips**, **Marques Brownlee**, **TechLinked**, **Techquickie**, **Web Dev Simplified**|10|
+
+## Note
+I am open to suggestions please feel free to let me know of any major Categories or channels that I've missed or you'll like to be included. I'll try my best to include them to the dataset.
+
+Thanks!
