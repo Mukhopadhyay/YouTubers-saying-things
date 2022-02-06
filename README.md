@@ -1,32 +1,26 @@
 ![background](documentation/background.jpg)
 
-### Dataset with popular YouTuber's video subtitles
+## Dataset with popular YouTuber's video subtitles
 
 <br/>
 
 ### Find it on:
 
-[<img src='https://www.kaggle.com/static/images/site-logo.svg' alt='kaggle' height='40'>](https://www.kaggle.com/praneshmukhopadhyay)
+[<img src='https://www.kaggle.com/static/images/site-logo.svg' alt='kaggle' height='40'>](https://www.kaggle.com/praneshmukhopadhyay/youtubers-saying-things)
 
-<br/>
+## Description
 
-Current available video categories:
-- Science
-- Automobile
-- Comedy
-- Tech
-- VideoGames
-- Food
-- News
-- Blog
-- Entertainment
-- Informative
-- Travel
+This dataset contains subtitles from over <big><strong>`91`</strong></big> different youtubers, ranging from all different kinds of categories. The data was collected and cleaned (as much as necessary) by me. Currently the dataset contains <big><strong>`2515`</strong></big> unique videoes and their subtitles. There are `11` columns in the dataset.
+The purpose of each column is as follows:
 
-### Genres and channels
+|**No**|**Column**|**Description**|
+|:-----|:---------|:--------------|
+||||
 
-|Genre|Channels| # |
-|:----|:-------|:--|
+## Genres and channels
+
+|**Genre**|**Channels**| **#** |
+|:--------|:-----------|:------|
 |Comedy|**Brooklyn Nine-Nine**, **DRIVETRIBE**, **Incognito Mode**, **Internet Historian**, **Joma Tech**, **Key & Peele**, **OverSimplified**, **Parks and Recreation**, **penguinz0**, **Screen Junkies**, **Team Coco**, **The Graham Norton Show**, **The Grand Tour**, **The Office**, **Top Gear**|15|
 |Science|**3Blue1Brown**, **Dr. Becky**, **ElectroBOOM**, **Kurzgesagt – In a Nutshell**, **Lex Clips**, **Mark Rober**, **NileRed**, **PBS Space Time**, **SEA**, **SmarterEveryDay**, **Veritasium**, **Vsauce**|12|
 |Automobile|**Car Throttle**, **carwow**, **ChrisFix**, **Donut Media**, **DRIVETRIBE**, **The Grand Tour**, **The Stig**, **TheStraightPipes**, **Throttle House**, **Top Gear**|10|
