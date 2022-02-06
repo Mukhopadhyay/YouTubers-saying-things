@@ -5,6 +5,12 @@
 
 [<img src='https://www.kaggle.com/static/images/site-logo.svg' alt='kaggle' height='40'>](https://www.kaggle.com/praneshmukhopadhyay/youtubers-saying-things)
 
+## Intro
+
+Founded and maintained since 2005, YouTube is one of internet's biggest platform. With their number of videoes watched per day exceeding **1 Billion**, it's easy for any user to differentiate genres just by glancing at the thumbnail and the Title. My inspiration to make this dataset was to try and answer the question if it is equally easy for a computer to do.
+
+The `Transcript` column in the dataset contains the subtitles for the repective videoes. However the reliability of the subtitles may vary. Even though the auto-generated subtitles works great (most of the time). Sometimes under heavy pressure of thick accents it lets go of the ball. Please consult the `CC` attribute to check whether the subtitle is auto-generated or not. `1381` of these video subtitles are auto-generated, the rest of the `1134` are manual ones.
+
 ## Description
 
 This dataset contains subtitles from over `91` different youtubers, ranging from all different kinds of categories. The data was collected and cleaned (as much as necessary) by me. Currently the dataset contains `2515` unique videoes and their subtitles. There are `11` columns in the dataset.
